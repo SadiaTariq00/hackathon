@@ -8,7 +8,8 @@ import Dressstyle from './components/Dressstyle'
 import Products from './products/page'
 import TopSelling from './products/Selling'
 import Footer from './components/Footer'
-import CustomerCarousel from './components/Happycustomers'
+import CustomerCarousel from './components/Customer'
+
 
 
 
@@ -24,10 +25,10 @@ export default function Home() {
       <Brands/>
       <Products/>
       <TopSelling/>
-    
- 
       <Dressstyle/>
-   <CustomerCarousel/>
+ <CustomerCarousel/>
+     
+
       <Footer/>
     </div>
   )

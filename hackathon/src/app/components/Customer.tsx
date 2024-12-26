@@ -1,4 +1,4 @@
-import { FaStar } from "react-icons/fa"; 
+import { FaStar } from "react-icons/fa"; // Import FontAwesome icons
 import { FaCircleCheck } from "react-icons/fa6";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -51,19 +51,17 @@ export default function CustomerCarousel() {
   return (
     <main className="mt-14">
       <div className="w-full flex justify-center items-center mt-10 mb-1 max-w-screen-xl mx-auto">
+        {/* Container */}
         <div className="w-[95%] md:w-[80%] p-3 md:p-0">
-
           {/* Header */}
           <div className="flex justify-between items-center">
             <h1 className="text-black text-3xl md:text-4xl font-extrabold pt-4 text-center md:text-left">
               OUR HAPPY CUSTOMERS
             </h1>
           </div>
-          <div className="relative mt-10 ">
-
+          <div className="relative mt-10 bg-red-">
             {/* Carousel */}
             <Carousel className="w-full md:max-w-[100%] mx-auto relative">
-                
               {/* Buttons */}
               <CarouselPrevious className="absolute top-[-1rem] md:top-[-3rem]  left-[230px] md:left-[500px] lg:left-[700px] xl:left-[920px] text-gray-600 hover:text-black" />
               <CarouselNext className="absolute top-[-1rem] md:top-[-3rem]   right-0 md:right-2 text-gray-600 hover:text-black" />
